@@ -3,6 +3,8 @@ import React from 'react';
 import Link from 'next/link';
 import { CheckCircle } from 'lucide-react';
 
+export const dynamic = 'force-dynamic';
+
 type Props = {
     searchParams: Promise<{ [key: string]: string | string[] | undefined }>
 }
