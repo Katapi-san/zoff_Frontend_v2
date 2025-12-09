@@ -1,10 +1,11 @@
 'use client';
 
+import React, { Suspense } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { CheckCircle } from 'lucide-react';
 
-export default function ReservationCompletePage() {
+function ReservationCompleteContent() {
     const searchParams = useSearchParams();
     const staffName = searchParams.get('staffName');
     const date = searchParams.get('date');
@@ -47,5 +48,13 @@ export default function ReservationCompletePage() {
                 トップに戻る
             </Link>
         </div>
+    );
+}
+
+export default function ReservationCompletePage() {
+    return (
+        <Suspense fallback={<div className="min-h-screen flex items-center justify-center">読み込み中...</div>}>
+            <ReservationCompleteContent />
+        </Suspense>
     );
 }
