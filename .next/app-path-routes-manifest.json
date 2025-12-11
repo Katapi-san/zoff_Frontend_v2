@@ -1,0 +1,12 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/checkin/page": "/checkin",
+  "/favicon.ico/route": "/favicon.ico",
+  "/member/page": "/member",
+  "/page": "/",
+  "/reservation/complete/page": "/reservation/complete",
+  "/reservation/staff/[id]/page": "/reservation/staff/[id]",
+  "/staffs/page": "/staffs",
+  "/stores/page": "/stores"
+}

@@ -1,0 +1,12 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/checkin/page": "app/checkin/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/member/page": "app/member/page.js",
+  "/page": "app/page.js",
+  "/reservation/complete/page": "app/reservation/complete/page.js",
+  "/reservation/staff/[id]/page": "app/reservation/staff/[id]/page.js",
+  "/staffs/page": "app/staffs/page.js",
+  "/stores/page": "app/stores/page.js"
+}
