@@ -1,7 +1,9 @@
 {
   "version": 1,
   "config": {
-    "env": {},
+    "env": {
+      "NEXT_PUBLIC_API_BASE_URL": "https://zoff-scope-backend.azurewebsites.net"
+    },
     "webpack": null,
     "typescript": {
       "ignoreBuildErrors": false
