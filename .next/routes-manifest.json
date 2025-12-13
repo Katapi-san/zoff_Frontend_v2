@@ -27,6 +27,14 @@
         "nxtPid": "nxtPid"
       },
       "namedRegex": "^/reservation/staff/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/staffs/[id]",
+      "regex": "^/staffs/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/staffs/(?<nxtPid>[^/]+?)(?:/)?$"
     }
   ],
   "staticRoutes": [

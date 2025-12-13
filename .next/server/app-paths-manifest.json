@@ -7,6 +7,7 @@
   "/page": "app/page.js",
   "/reservation/complete/page": "app/reservation/complete/page.js",
   "/reservation/staff/[id]/page": "app/reservation/staff/[id]/page.js",
+  "/staffs/[id]/page": "app/staffs/[id]/page.js",
   "/staffs/page": "app/staffs/page.js",
   "/stores/page": "app/stores/page.js"
 }

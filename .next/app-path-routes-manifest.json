@@ -7,6 +7,7 @@
   "/page": "/",
   "/reservation/complete/page": "/reservation/complete",
   "/reservation/staff/[id]/page": "/reservation/staff/[id]",
+  "/staffs/[id]/page": "/staffs/[id]",
   "/staffs/page": "/staffs",
   "/stores/page": "/stores"
 }
