@@ -35,6 +35,14 @@
         "nxtPid": "nxtPid"
       },
       "namedRegex": "^/staffs/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/stores/[id]",
+      "regex": "^/stores/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/stores/(?<nxtPid>[^/]+?)(?:/)?$"
     }
   ],
   "staticRoutes": [
@@ -73,6 +81,12 @@
       "regex": "^/member(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/member(?:/)?$"
+    },
+    {
+      "page": "/qr",
+      "regex": "^/qr(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/qr(?:/)?$"
     },
     {
       "page": "/reservation/complete",

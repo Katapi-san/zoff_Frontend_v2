@@ -5,9 +5,11 @@
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/member/page": "app/member/page.js",
   "/page": "app/page.js",
+  "/qr/page": "app/qr/page.js",
   "/reservation/complete/page": "app/reservation/complete/page.js",
   "/reservation/staff/[id]/page": "app/reservation/staff/[id]/page.js",
   "/staffs/[id]/page": "app/staffs/[id]/page.js",
   "/staffs/page": "app/staffs/page.js",
+  "/stores/[id]/page": "app/stores/[id]/page.js",
   "/stores/page": "app/stores/page.js"
 }

@@ -5,9 +5,11 @@
   "/favicon.ico/route": "/favicon.ico",
   "/member/page": "/member",
   "/page": "/",
+  "/qr/page": "/qr",
   "/reservation/complete/page": "/reservation/complete",
   "/reservation/staff/[id]/page": "/reservation/staff/[id]",
   "/staffs/[id]/page": "/staffs/[id]",
   "/staffs/page": "/staffs",
+  "/stores/[id]/page": "/stores/[id]",
   "/stores/page": "/stores"
 }
