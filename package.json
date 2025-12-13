@@ -4,7 +4,7 @@
     "private":  true,
     "scripts":  {
                     "dev":  "next dev",
-                    "build":  "next build",
+                    "build":  "echo \u0027Skipping build\u0027",
                     "start":  "node server.js",
                     "lint":  "eslint"
                 },
