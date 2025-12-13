@@ -37,6 +37,31 @@
       "namedRegex": "^/staffs/(?<nxtPid>[^/]+?)(?:/)?$"
     },
     {
+      "page": "/store/[id]",
+      "regex": "^/store/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/store/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/store/[id]/service",
+      "regex": "^/store/([^/]+?)/service(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/store/(?<nxtPid>[^/]+?)/service(?:/)?$"
+    },
+    {
+      "page": "/store/[id]/staff/[staffId]",
+      "regex": "^/store/([^/]+?)/staff/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid",
+        "nxtPstaffId": "nxtPstaffId"
+      },
+      "namedRegex": "^/store/(?<nxtPid>[^/]+?)/staff/(?<nxtPstaffId>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/stores/[id]",
       "regex": "^/stores/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -99,6 +124,12 @@
       "regex": "^/staffs(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/staffs(?:/)?$"
+    },
+    {
+      "page": "/store",
+      "regex": "^/store(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/store(?:/)?$"
     },
     {
       "page": "/stores",
