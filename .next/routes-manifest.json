@@ -113,6 +113,12 @@
       "namedRegex": "^/checkin(?:/)?$"
     },
     {
+      "page": "/debug-version",
+      "regex": "^/debug\\-version(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/debug\\-version(?:/)?$"
+    },
+    {
       "page": "/favicon.ico",
       "regex": "^/favicon\\.ico(?:/)?$",
       "routeKeys": {},
