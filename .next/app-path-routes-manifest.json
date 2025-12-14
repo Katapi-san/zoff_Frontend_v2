@@ -13,7 +13,5 @@
   "/store/[id]/page": "/store/[id]",
   "/store/[id]/service/page": "/store/[id]/service",
   "/store/[id]/staff/[staffId]/page": "/store/[id]/staff/[staffId]",
-  "/store/page": "/store",
-  "/stores/[id]/page": "/stores/[id]",
-  "/stores/page": "/stores"
+  "/store/page": "/store"
 }

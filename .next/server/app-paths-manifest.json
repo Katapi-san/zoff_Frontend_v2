@@ -13,7 +13,5 @@
   "/store/[id]/page": "app/store/[id]/page.js",
   "/store/[id]/service/page": "app/store/[id]/service/page.js",
   "/store/[id]/staff/[staffId]/page": "app/store/[id]/staff/[staffId]/page.js",
-  "/store/page": "app/store/page.js",
-  "/stores/[id]/page": "app/stores/[id]/page.js",
-  "/stores/page": "app/stores/page.js"
+  "/store/page": "app/store/page.js"
 }

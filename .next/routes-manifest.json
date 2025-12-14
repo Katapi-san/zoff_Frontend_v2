@@ -60,14 +60,6 @@
         "nxtPstaffId": "nxtPstaffId"
       },
       "namedRegex": "^/store/(?<nxtPid>[^/]+?)/staff/(?<nxtPstaffId>[^/]+?)(?:/)?$"
-    },
-    {
-      "page": "/stores/[id]",
-      "regex": "^/stores/([^/]+?)(?:/)?$",
-      "routeKeys": {
-        "nxtPid": "nxtPid"
-      },
-      "namedRegex": "^/stores/(?<nxtPid>[^/]+?)(?:/)?$"
     }
   ],
   "staticRoutes": [
@@ -130,12 +122,6 @@
       "regex": "^/store(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/store(?:/)?$"
-    },
-    {
-      "page": "/stores",
-      "regex": "^/stores(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/stores(?:/)?$"
     }
   ],
   "dataRoutes": [],
